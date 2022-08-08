@@ -13,7 +13,7 @@ function Header() {
           className="icon-image"
         />
         <h1>Roge</h1>
-        <div>
+        <div className="routes-container">
           <p>Sobre mim</p>
           <p>Projetos</p>
           <p>Skills</p>
