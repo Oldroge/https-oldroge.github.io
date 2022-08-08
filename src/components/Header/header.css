@@ -1,0 +1,10 @@
+.container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-image {
+    width: 26px;
+    height: 26px;
+}
