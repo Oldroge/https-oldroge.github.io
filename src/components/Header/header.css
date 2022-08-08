@@ -1,7 +1,14 @@
 .container {
     border: 1px solid red;
     display: flex;
+    justify-content: space-between;
+}
+
+.routes-container {
+    display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 270px;
 }
 
 .icon-image {
