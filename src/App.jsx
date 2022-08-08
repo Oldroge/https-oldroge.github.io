@@ -5,8 +5,8 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <>
-      <h1>Portfólio</h1>
       <Header />
+      <h1>Portfólio</h1>
     </>
   );
 }

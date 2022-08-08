@@ -1,3 +1,9 @@
+#header {
+    border-bottom: 1px solid #5E17EB;
+    margin-top: -16px;
+    padding: -50px;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -9,6 +15,8 @@
     align-items: center;
     width: 100px;
     font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px #5E17EB;
+    color: white;
 }
 
 .routes-container {
