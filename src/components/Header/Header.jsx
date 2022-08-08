@@ -12,7 +12,7 @@ function Header() {
           alt="icone de computador pintado em verde"
           className="icon-image"
         />
-        <h1>Roge</h1>
+        <h1 className="header-title">ROGE</h1>
         <div className="routes-container">
           <p>Sobre mim</p>
           <p>Projetos</p>
