@@ -1,0 +1,9 @@
+#about-me-page {
+    background-color: #171515;
+}
+
+.roge-photo {
+    width: 542px;
+    height: 100%;
+    filter: grayscale(100%) opacity(30%);
+}
