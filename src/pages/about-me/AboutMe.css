@@ -1,9 +1,25 @@
-#about-me-page {
-    background-color: #171515;
+@media screen and (min-width: 768px) {
+    #about-me-page {
+        display: flex;
+        background-color: #171515;
+    }
+    
+    .roge-photo {
+        width: 542px;
+        height: 100%;
+        filter: grayscale(100%) opacity(30%);
+    }
+    
 }
 
-.roge-photo {
-    width: 542px;
-    height: 100%;
-    filter: grayscale(100%) opacity(30%);
+@media screen and (max-width: 768px) {
+    #about-me-page {
+        background-color: #171515;
+    }
+    
+    .roge-photo {
+        width: 400px;
+        height: 100%;
+        filter: grayscale(100%) opacity(30%);
+    }
 }
