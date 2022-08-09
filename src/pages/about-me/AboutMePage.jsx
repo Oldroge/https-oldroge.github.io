@@ -15,6 +15,9 @@ export default function AboutMePage() {
           alt="Roge sorrindo olhando pra câmera e fundo branco"
           className="roge-photo"
         />
+        <div className="roge-name-div">
+          <h2>Roge Martins</h2>
+        </div>
       </section>
     </>
   );
