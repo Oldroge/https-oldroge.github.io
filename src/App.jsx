@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Header from './components/Header/Header';
+import AboutMePage from './pages/about-me/AboutMePage';
 
 function App() {
   return (
     <>
-      <Header />
+      <AboutMePage />
       <h1>Portfólio</h1>
     </>
   );
