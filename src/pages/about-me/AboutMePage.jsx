@@ -16,7 +16,7 @@ export default function AboutMePage() {
           className="roge-photo"
         />
         <div className="roge-name-div">
-          <h2>Roge Martins</h2>
+          <h2 className="about-me-roge-name">Roge Martins</h2>
         </div>
       </section>
     </>
