@@ -8,10 +8,10 @@ export default function MenuBar() {
   return (
     <>
       <nav className="routes-container">
-        <p>Sobre mim</p>
-        <p>Projetos</p>
-        <p>Skills</p>
-        <p>Contato</p>
+        <p className="nav-menu-option">Sobre mim</p>
+        <p className="nav-menu-option">Projetos</p>
+        <p className="nav-menu-option">Skills</p>
+        <p className="nav-menu-option">Contato</p>
       </nav>
       <nav
         className="nav-btn-div"
