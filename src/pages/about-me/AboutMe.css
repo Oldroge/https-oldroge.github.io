@@ -33,7 +33,6 @@
         -webkit-text-stroke: 1.5px #5E17EB;
         color: #171515;
         margin-left: -15px;
-        position: absolute;
     }
 
     .about-me-text-div {
@@ -45,6 +44,26 @@
         box-shadow: 2px 3px 30px #5E17EB;
         padding: 10px;
         align-self: center;
+    }
+
+    .text-about-me {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .title-above-div {
+        height: 10px;
+        width: 400px;
+        align-self: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    #title-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 610px;
     }
     
 }
@@ -83,5 +102,21 @@
         -webkit-text-stroke: 1.5px #5E17EB;
         color: #171515;
         margin-left: -15px;
+    }
+
+    .about-me-text-div {
+        width: 320px;
+        margin-top: 40px;
+        margin-bottom: 18px;
+        border: 1px solid #5E17EB;
+        border-radius: 5%;
+        box-shadow: 2px 3px 30px #5E17EB;
+        padding: 10px;
+        align-self: center;
+    }
+
+    .text-about-me {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
