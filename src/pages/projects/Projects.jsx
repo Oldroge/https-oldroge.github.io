@@ -22,11 +22,6 @@ export default function Projects() {
           />
         </div>
         <div className="container-project">
-          <img
-            src={PortfolioImage}
-            alt="Imagem escrito Portfolio com fundo preto e detalhes de roxo"
-            className="portfolio-image"
-          />
           <div className="icon-github">
             <a
               href="https://github.com/Oldroge/my-personal-portfolio"
@@ -40,6 +35,11 @@ export default function Projects() {
               />
             </a>
           </div>
+          <img
+            src={PortfolioImage}
+            alt="Imagem escrito Portfolio com fundo preto e detalhes de roxo"
+            className="portfolio-image"
+          />
         </div>
         <div className="arrow-right-side-div">
           <img
