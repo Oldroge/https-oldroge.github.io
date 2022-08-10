@@ -4,6 +4,7 @@
 
 .container-project {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 545px;
@@ -22,4 +23,12 @@
     border: 1px solid #5E17EB;
     box-shadow: 4px 4px 10px #5E17EB;
     border-radius: 50%;
+    margin-top: 20px;
+}
+
+.github-icon:hover {
+    border: 1px solid #5E17EB;
+    box-shadow: 4px 4px 1000px #5E17EB;
+    border-radius: 50%;
+    margin-top: 20px;
 }
