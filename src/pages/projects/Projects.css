@@ -1,0 +1,19 @@
+#project-page {
+    background-color: #171515;
+}
+
+.container-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 545px;
+}
+
+.portfolio-image {
+    width: 550px;
+    height: 300px;
+    align-self: center;
+    border: 1px solid #5E17EB;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #5E17EB;
+}
