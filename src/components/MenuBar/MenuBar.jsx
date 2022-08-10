@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import Icon from './images/icons8-cardápio-64.png';
 
@@ -8,7 +9,9 @@ export default function MenuBar() {
   return (
     <>
       <nav className="routes-container">
-        <p className="nav-menu-option">Sobre mim</p>
+        <Link to="/about" className="nav-menu-option">
+          <p>Sobre mim</p>
+        </Link>
         <p className="nav-menu-option">Projetos</p>
         <p className="nav-menu-option">Skills</p>
         <p className="nav-menu-option">Contato</p>
