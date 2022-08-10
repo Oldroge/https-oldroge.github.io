@@ -2,7 +2,7 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 
 import AboutMePage from './pages/about-me/AboutMePage';
-import Projects from './pages/about-me/projects/Projects';
+import Projects from './pages/projects/Projects';
 
 function App() {
   return (
