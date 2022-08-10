@@ -4,6 +4,8 @@ import Header from '../../components/Header/Header';
 
 import PortfolioImage from './images/portfolio-presents.png';
 import GitHubIcon from './images/icon-github.png';
+import ArrowRight from './images/arrow-right-side.png';
+import ArrowLeft from './images/arrow-left-side.png';
 
 import './Projects.css';
 
@@ -12,6 +14,13 @@ export default function Projects() {
     <>
       <Header />
       <section id="project-page">
+        <div className="arrow-left-side-div">
+          <img
+            src={ArrowLeft}
+            alt=""
+            className="arrow-left-side"
+          />
+        </div>
         <div className="container-project">
           <img
             src={PortfolioImage}
@@ -31,6 +40,13 @@ export default function Projects() {
               />
             </a>
           </div>
+        </div>
+        <div className="arrow-right-side-div">
+          <img
+            src={ArrowRight}
+            alt="flecha apontando para o lado direito"
+            className="arrow-right-side"
+          />
         </div>
       </section>
     </>
