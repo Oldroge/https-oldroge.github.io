@@ -12,7 +12,10 @@ export default function MenuBar() {
         <Link to="/about" className="nav-menu-option">
           <p>Sobre mim</p>
         </Link>
-        <p className="nav-menu-option">Projetos</p>
+
+        <Link to="/projects" className="nav-menu-option">
+          <p>Projetos</p>
+        </Link>
         <p className="nav-menu-option">Skills</p>
         <p className="nav-menu-option">Contato</p>
       </nav>
