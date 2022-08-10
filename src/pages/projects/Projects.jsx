@@ -1,7 +1,12 @@
 import React from 'react';
 
+import Header from '../../components/Header/Header';
+
 export default function Projects() {
   return (
-    <div>Projects</div>
+    <>
+      <Header />
+      <div>Projects</div>
+    </>
   );
 }
