@@ -25,8 +25,7 @@
         width: 270px;
         margin-right: 26px;
         font-family: Arial, Helvetica, sans-serif;
-        color: white;
-    
+        color: white;    
     }
     
     .icon-image {
@@ -41,8 +40,12 @@
     }
 
     .nav-menu-option:hover {
-        padding: 4px;
         box-shadow: 2px 2px 10px #5E17EB;
+    }
+
+    .nav-menu-option {
+        text-decoration: none;
+        color: white;
     }
     
 }
