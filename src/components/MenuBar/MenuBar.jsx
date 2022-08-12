@@ -16,7 +16,9 @@ export default function MenuBar() {
         <Link to="/projects" className="nav-menu-option">
           <p>Projetos</p>
         </Link>
-        <p className="nav-menu-option">Skills</p>
+        <Link to="/skills" className="nav-menu-option">
+          <p>Skills</p>
+        </Link>
         <p className="nav-menu-option">Contato</p>
       </nav>
       <nav
