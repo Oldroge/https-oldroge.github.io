@@ -1,0 +1,31 @@
+.container-skills-languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 400px;
+    height: 548px;
+    background-color: #3F3F3F;
+}
+
+.div-language {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    width: 400px;
+    height: 548px;
+
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #5E17EB;
+    box-shadow: 3px 2px 40px #5E17EB;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
