@@ -20,14 +20,14 @@ export default function SkillsLanguages() {
         <div className="languages">
           <img
             src={HtmlIcon}
-            alt=""
+            alt="Fundo branco escrito HTML com escudo em baixo e o número 5 no meio"
             className="icon"
           />
         </div>
         <div className="languages">
           <img
             src={CssIcon}
-            alt=""
+            alt="Fundo branco escrito CSS com escudo em baixo e o número 3 no meio"
             className="icon"
           />
         </div>
@@ -36,14 +36,14 @@ export default function SkillsLanguages() {
         <div className="languages">
           <img
             src={JavaScriptIcon}
-            alt=""
+            alt="Fundo amarelo com as letras JS de JavaScript"
             className="icon"
           />
         </div>
         <div className="languages">
           <img
             src={ReactIcon}
-            alt=""
+            alt="Fundo azul com um desenho similar a um próton em branco"
             className="icon"
           />
         </div>
@@ -52,14 +52,14 @@ export default function SkillsLanguages() {
         <div className="languages">
           <img
             src={ReduxIcon}
-            alt=""
+            alt="Fundo branco com desenho similar a um próton em roxo"
             className="icon"
           />
         </div>
         <div className="languages">
           <img
             src={JestIcon}
-            alt=""
+            alt="Fundo branco e desenho de um sapato de bobo da corte em vermelhor vinho"
             className="icon"
           />
         </div>
@@ -68,14 +68,14 @@ export default function SkillsLanguages() {
         <div className="languages">
           <img
             src={NodeIcon}
-            alt=""
+            alt="Fundo branco escrito Node grande em cima e JS embaixo"
             className="icon"
           />
         </div>
         <div className="languages">
           <img
             src={MySqlIcon}
-            alt=""
+            alt="Fundo branco com o desenho de uma baleia escrito MySQL em baixo"
             className="icon"
           />
         </div>
@@ -84,14 +84,14 @@ export default function SkillsLanguages() {
         <div className="languages">
           <img
             src={MongoIcon}
-            alt=""
+            alt="Fundo branco com escudo triangular borda verde, fundo marrom e uma folha verde"
             className="icon"
           />
         </div>
         <div className="languages">
           <img
             src={AngularIcon}
-            alt=""
+            alt="Fundo branco com escudo todo vermelho e uma letra A branca na frente"
             className="icon"
           />
         </div>
