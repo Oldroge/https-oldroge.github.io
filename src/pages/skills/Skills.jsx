@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Header from '../../components/Header/Header';
 import SkillsLanguages from '../../components/SkillsLanguages/SkillsLanguages';
@@ -6,38 +6,17 @@ import SkillsLanguages from '../../components/SkillsLanguages/SkillsLanguages';
 import './Skills.css';
 
 export default function Skills() {
+  const [languageName, setLanguageName] = useState();
+  const readLanguageName = (value) => {
+    setLanguageName(value);
+  };
   return (
     <section>
       <Header />
       <div className="container-skills">
-        <SkillsLanguages />
+        <SkillsLanguages readLanguageText={readLanguageName} />
         <div className="text-skills">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Excepturi minima animi minus dolorem, rerum deleniti omnis mollitia,
-            eveniet officiis in commodi iure sunt nisi est deserunt aut tenetur obcaecati? Culpa!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Excepturi minima animi minus dolorem, rerum deleniti omnis mollitia,
-            eveniet officiis in commodi iure sunt nisi est deserunt aut tenetur obcaecati? Culpa!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Excepturi minima animi minus dolorem, rerum deleniti omnis mollitia,
-            eveniet officiis in commodi iure sunt nisi est deserunt aut tenetur obcaecati? Culpa!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Excepturi minima animi minus dolorem, rerum deleniti omnis mollitia,
-            eveniet officiis in commodi iure sunt nisi est deserunt aut tenetur obcaecati? Culpa!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Excepturi minima animi minus dolorem, rerum deleniti omnis mollitia,
-            eveniet officiis in commodi iure sunt nisi est deserunt aut tenetur obcaecati? Culpa!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Excepturi minima animi minus dolorem, rerum deleniti omnis mollitia,
-            eveniet officiis in commodi iure sunt nisi est deserunt aut tenetur obcaecati? Culpa!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Excepturi minima animi minus dolorem, rerum deleniti omnis mollitia,
-            eveniet officiis in commodi iure sunt nisi est deserunt aut tenetur obcaecati? Culpa!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Excepturi minima animi minus dolorem, rerum deleniti omnis mollitia,
-            eveniet officiis in commodi iure sunt nisi est deserunt aut tenetur obcaecati? Culpa!
-          </p>
+          <p>{ languageName }</p>
         </div>
       </div>
     </section>
