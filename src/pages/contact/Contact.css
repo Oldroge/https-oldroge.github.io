@@ -1,35 +1,68 @@
-.contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 120px;
-}
-
-.social-medias-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 900px;
-}
-
-@media (max-width: 900px) {
+@media screen and (min-width: 768px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 120px;
+    }
+    
     .social-medias-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 700px;
+        width: 900px;
     }
+    
+    @media (max-width: 900px) {
+        .social-medias-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 700px;
+        }
+    }
+    
+    .images-icon {
+        width: 160px;
+        border: 2px solid #5E17EB;
+        border-radius: 50%;
+        background-color: white;
+    }
+    
+    .images-icon:hover {
+        box-shadow: 2px 2px 10px 5px #5E17EB;
+    }
+    
 }
 
-.images-icon {
-    width: 160px;
-    border: 2px solid #5E17EB;
-    border-radius: 50%;
-    background-color: white;
-}
+@media screen and (max-width: 768px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 100px;
+    }
+    
+    .social-medias-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 350px;
+        margin-top: 50px;
 
-.images-icon:hover {
-    box-shadow: 2px 2px 10px 5px #5E17EB;
+    }
+    
+    
+    .images-icon {
+        width: 100px;
+        border: 2px solid #5E17EB;
+        border-radius: 50%;
+        background-color: white;
+        margin-top: 30px;
+    }
 }
