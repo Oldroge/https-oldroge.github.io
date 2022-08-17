@@ -6,3 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 120px;
 }
+
+.social-medias-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+}
