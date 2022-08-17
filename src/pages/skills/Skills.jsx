@@ -8,6 +8,8 @@ import languageText from '../../components/SkillsLanguages/commons/about-skills-
 
 export default function Skills() {
   const [languageName, setLanguageName] = useState(languageText.html5);
+  // Para conseguir passar informações usando props do componente filho para o pai, usei
+  // esta referência:
   // https://www.freecodecamp.org/portuguese/news/como-passar-dados-e-eventos-entre-componentes-em-react/
   const readLanguageName = (value) => {
     setLanguageName(value);
