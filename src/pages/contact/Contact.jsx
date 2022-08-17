@@ -16,13 +16,22 @@ export default function Contact() {
         <h3>Para saber mais sobre mim:</h3>
         <section className="social-medias-container">
           <div>
-            <img src={LinkedinIcon} alt="" />
+            <img
+              src={LinkedinIcon}
+              alt="letras i e n em azul"
+            />
           </div>
           <div>
-            <img src={GitHubIcon} alt="" />
+            <img
+              src={GitHubIcon}
+              alt="silhueta de um gato com fundo preto"
+            />
           </div>
           <div>
-            <img src={TelegramIcon} alt="" />
+            <img
+              src={TelegramIcon}
+              alt="fundo azul circular com um avião de papel ao centro"
+            />
           </div>
         </section>
       </article>
