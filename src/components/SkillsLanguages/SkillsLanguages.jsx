@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './SkillsLanguages.css';
 import textLanguages from './commons/about-skills-text';
@@ -14,9 +15,7 @@ import MySqlIcon from './images/mysql.png';
 import MongoIcon from './images/mongo.png';
 import NodeIcon from './images/nodejs.png';
 
-// eslint-disable-next-line react/prop-types
 export default function SkillsLanguages({ readLanguageText }) {
-  // eslint-disable-next-line dot-notation
   return (
     <div className="container-skills-languages">
       <div className="div-language">
@@ -132,3 +131,7 @@ export default function SkillsLanguages({ readLanguageText }) {
     </div>
   );
 }
+
+SkillsLanguages.propTypes = {
+  readLanguageText: PropTypes.string.isRequired,
+};
