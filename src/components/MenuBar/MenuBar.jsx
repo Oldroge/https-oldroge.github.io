@@ -36,10 +36,18 @@ export default function MenuBar() {
         {
           show ? (
             <span className="block-nav-bar">
-              <p>Sobre mim</p>
-              <p>Projetos</p>
-              <p>Skills</p>
-              <p>Contato</p>
+              <Link to="/about" className="nav-menu-option">
+                <p>Sobre mim</p>
+              </Link>
+              <Link to="/projects" className="nav-menu-option">
+                <p>Projetos</p>
+              </Link>
+              <Link to="/skills" className="nav-menu-option">
+                <p>Skills</p>
+              </Link>
+              <Link to="/contact" className="nav-menu-option">
+                <p>Contato</p>
+              </Link>
             </span>
           ) : null
         }
