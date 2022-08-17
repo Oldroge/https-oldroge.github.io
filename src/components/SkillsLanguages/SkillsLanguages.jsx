@@ -133,5 +133,5 @@ export default function SkillsLanguages({ readLanguageText }) {
 }
 
 SkillsLanguages.propTypes = {
-  readLanguageText: PropTypes.string.isRequired,
+  readLanguageText: PropTypes.func.isRequired,
 };
