@@ -19,7 +19,9 @@ export default function MenuBar() {
         <Link to="/skills" className="nav-menu-option">
           <p>Skills</p>
         </Link>
-        <p className="nav-menu-option">Contato</p>
+        <Link to="/contact" className="nav-menu-option">
+          <p>Contato</p>
+        </Link>
       </nav>
       <nav
         className="nav-btn-div"
