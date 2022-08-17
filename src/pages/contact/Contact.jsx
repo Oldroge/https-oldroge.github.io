@@ -16,25 +16,31 @@ export default function Contact() {
         <h3>Para saber mais sobre mim:</h3>
         <section className="social-medias-container">
           <div>
-            <img
-              src={LinkedinIcon}
-              alt="letras i e n em azul"
-              className="images-icon"
-            />
+            <a href="https://www.linkedin.com/in/roge/" target="_blank" rel="noreferrer">
+              <img
+                src={LinkedinIcon}
+                alt="letras i e n em azul"
+                className="images-icon"
+              />
+            </a>
           </div>
           <div>
-            <img
-              src={GitHubIcon}
-              alt="silhueta de um gato com fundo preto"
-              className="images-icon"
-            />
+            <a href="https://github.com/Oldroge" target="_blank" rel="noreferrer">
+              <img
+                src={GitHubIcon}
+                alt="silhueta de um gato com fundo preto"
+                className="images-icon"
+              />
+            </a>
           </div>
           <div>
-            <img
-              src={TelegramIcon}
-              alt="fundo azul circular com um avião de papel ao centro"
-              className="images-icon"
-            />
+            <a href="https://t.me/oldroge" target="_blank" rel="noopener noreferrer">
+              <img
+                src={TelegramIcon}
+                alt="fundo azul circular com um avião de papel ao centro"
+                className="images-icon"
+              />
+            </a>
           </div>
         </section>
       </article>
