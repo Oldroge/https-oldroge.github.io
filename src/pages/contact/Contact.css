@@ -11,7 +11,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1000px;
+    width: 900px;
+}
+
+@media (max-width: 900px) {
+    .social-medias-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 700px;
+    }
 }
 
 .images-icon {
