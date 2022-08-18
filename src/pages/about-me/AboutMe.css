@@ -65,13 +65,11 @@
     }
 
     .about-me-text-div {
-        margin-left: 30px;
-        margin-right: 10px;
+        margin: 0px 10px 100px 20px;
         border: 1px solid #5E17EB;
         border-radius: 10px;
         box-shadow: 2px 3px 30px #5E17EB;
         padding: 10px;
-        align-self: center;
     }
 
     .text-about-me {
