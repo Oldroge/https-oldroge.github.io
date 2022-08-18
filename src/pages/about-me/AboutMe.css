@@ -33,6 +33,14 @@
         margin-left: -15px;
     }
 
+    .about-me-text-div {
+        margin: 0px 10px 100px 20px;
+        border: 1px solid #5E17EB;
+        border-radius: 10px;
+        box-shadow: 2px 3px 30px #5E17EB;
+        padding: 10px;
+    }
+
     @media screen and (max-width: 1166px) {
         .img-name-container {
             display: flex;
@@ -62,14 +70,14 @@
             color: white;
             margin-left: 4px;
         }
-    }
 
-    .about-me-text-div {
-        margin: 0px 10px 100px 20px;
-        border: 1px solid #5E17EB;
-        border-radius: 10px;
-        box-shadow: 2px 3px 30px #5E17EB;
-        padding: 10px;
+        .about-me-text-div {
+            margin: 0px 10px 0px 20px;
+            border: 1px solid #5E17EB;
+            border-radius: 10px;
+            box-shadow: 2px 3px 30px #5E17EB;
+            padding: 10px;
+        }
     }
 
     .text-about-me {
@@ -78,11 +86,11 @@
     }
 
     .title-above-div {
-        height: 10px;
-        width: 400px;
         align-self: center;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
+        margin-bottom: 10px;
+
     }
 
     #title-text-container {
@@ -118,7 +126,7 @@
         width: 200px;
         border-radius: 50%;
         margin-top: -50px;
-        position: relative;
+        z-index: 1;
     }
 
     .about-me-roge-name {
@@ -126,8 +134,14 @@
         font-size: 40px;
         font-family: Arial, Helvetica, sans-serif;
         -webkit-text-stroke: 1.5px #5E17EB;
-        color: #171515;
+        color: white;
         margin-left: -15px;
+    }
+
+    .img-name-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .about-me-text-div {
