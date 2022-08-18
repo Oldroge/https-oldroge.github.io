@@ -11,13 +11,15 @@ export default function AboutMePage() {
     <>
       <Header />
       <section id="about-me-page">
-        <img
-          src={rogeImage}
-          alt="Roge sorrindo olhando pra câmera e fundo branco"
-          className="roge-photo"
-        />
-        <div className="roge-name-div">
-          <h2 className="about-me-roge-name">Roge Martins</h2>
+        <div className="img-name-container">
+          <img
+            src={rogeImage}
+            alt="Roge sorrindo olhando pra câmera e fundo branco"
+            className="roge-photo"
+          />
+          <div className="roge-name-div">
+            <h2 className="about-me-roge-name">Roge Martins</h2>
+          </div>
         </div>
         <AboutMeText />
       </section>
