@@ -32,7 +32,7 @@
     
     .github-icon:hover {
         border: 1px solid #5E17EB;
-        box-shadow: 2px 2px 100px #5E17EB;
+        box-shadow: 2px 2px 5px 4px #5E17EB;
         border-radius: 50%;
     }
     
