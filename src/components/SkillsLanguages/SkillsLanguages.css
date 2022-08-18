@@ -16,7 +16,13 @@
     align-content: center;
     width: 400px;
     height: 548px;
+    box-shadow: 2px 2px 2px 1px #5E17EB;
 
+}
+
+.div-language:hover {
+    background-color: #171515;
+    box-shadow: 3px 3px 3px 3px #5E17EB;
 }
 
 .languages {
@@ -32,7 +38,7 @@
 }
 
 .languages:hover {
-    box-shadow: 4px 4px 10px 2px black, 7px 7px 10px 2px #5E17EB;
+    box-shadow: 2px 2px 5px 2px white, 4px 4px 7px 2px #5E17EB;
 }
 
 .icon {
