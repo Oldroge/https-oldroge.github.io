@@ -18,6 +18,7 @@
         font-family: Arial, Helvetica, sans-serif;
         -webkit-text-stroke: 1px #5E17EB;
         color: white;
+        font-size: 30px;
     }
     
     .routes-container {
@@ -75,6 +76,7 @@
         font-family: Arial, Helvetica, sans-serif;
         -webkit-text-stroke: 1px #5E17EB;
         color: white;
+        font-size: 30px;
     }
 
     .routes-container {
