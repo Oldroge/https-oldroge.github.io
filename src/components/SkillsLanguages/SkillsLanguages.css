@@ -7,7 +7,7 @@
         border-radius: 5px;
         width: 400px;
         height: 548px;
-        background-color: #3F3F3F;
+        background-color: #2b2727;
     }
     
     .div-language {
@@ -17,13 +17,12 @@
         align-content: center;
         width: 400px;
         height: 548px;
-        box-shadow: 2px 2px 2px 1px #5E17EB;
+        box-shadow: 1px 1px 1px 1px #5E17EB;
     
     }
     
     .div-language:hover {
-        background-color: #171515;
-        box-shadow: 3px 3px 3px 3px #5E17EB;
+        box-shadow: 1.5px 1.5px 1.5px 4px #5E17EB;
     }
     
     .languages {
