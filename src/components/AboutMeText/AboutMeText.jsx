@@ -9,16 +9,20 @@ export default function AboutMeText() {
           Olá, me chamo Rogério Martins, mais conhecido como Roge. tenho 27 anos
           e moro em Florianópolis-SC.
           <br />
-          Recentemente me formei no curso de desenvolvimento Full Stack Web na
+          Me formei no curso de desenvolvimento Full Stack Web na
           Trybe, onde além de ter desenvolvido hard e soft skills, foi um grande
           salto na minha vida.
           <br />
-          Amo música e ler sobre neurosciência, estou sempre tentando aplicar o
-          que aprendo lendo sobre neurosciência na minha vida e isso tem tido um
-          impacto fundamental.
           <br />
-          Sempre estou buscando saber um pouco sobre tudo e a tecnologia me
-          proporciona isso, além de, claro, criar coisas incríveis.
+          Amo música e ler sobre neurosciência, ambos me auxiliam ativamente na minha vida,
+          sempre estou aplicando algo novo que aprendo sobre neurosciência e a música, bom,
+          é música... Está comigo nos melhor e piores momentos.
+          <br />
+          <br />
+          Aprender e saber um pouco mais sobre diversas coisas me encanta, e a tecnologia me
+          proporciona estes momentos, pois além de poder criar softwares eu preciso estar sempre
+          lendo sobre algo novo.
+          <br />
           <br />
           Busco trocar conhecimentos que agreguem mais valor ao que eu já estudo
           e, claro, contribuir.
