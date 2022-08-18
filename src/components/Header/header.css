@@ -7,6 +7,10 @@
         height: 60px;
         background-color: #171515;
     }
+
+    #header:hover {
+        -webkit-text-stroke: 0.3px;
+    }
     
     .container {
         display: flex;
@@ -42,8 +46,16 @@
         display: none;
     }
 
+    .nav-menu-option {
+        background: 
+            linear-gradient(#5E17EB 0 0) 
+            bottom /var(--d, 0) 2px 
+            no-repeat;
+        transition:0.5s;
+      }
+
     .nav-menu-option:hover {
-        box-shadow: 2px 2px 10px #5E17EB;
+        --d: 100%;
     }
 
     .nav-menu-option {
