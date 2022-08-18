@@ -45,7 +45,8 @@
     .nav-btn-div {
         display: none;
     }
-
+    
+    /* Para criar esse efeito utilizei essa referência https://dev.to/afif/100-underline-overlay-animation-the-ultimate-css-collection-4p40 */
     .nav-menu-option {
         background: 
             linear-gradient(#5E17EB 0 0) 
