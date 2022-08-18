@@ -1,9 +1,11 @@
 @media screen  and (min-width: 768px) {
     #header {
-        border: 2px solid #5E17EB;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 2px solid #5E17EB;
+        height: 60px;
         background-color: #171515;
-        margin-top: -16px;
-        padding: -50px;
     }
     
     .container {
@@ -53,15 +55,19 @@
 
 @media screen and (max-width: 768px) {
     #header {
-        border: 2px solid #5E17EB;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 2px solid #5E17EB;
         background-color: #171515;
         margin-top: -16px;
-        padding: -50px;
+        height: 70px;
     }
 
     .container {
         display: flex;
         justify-content: space-between;
+        margin-top: 20px;
     }
 
     .header-title {
