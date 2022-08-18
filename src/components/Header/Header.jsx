@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 
-import Icon from './images/icons8-código-do-google-96.png';
+import Icon from './images/icons8-código-fonte-96.png';
 import MenuBar from '../MenuBar/MenuBar';
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
       <div className="container">
         <img
           src={Icon}
-          alt="icone de computador pintado em verde"
+          alt="sinal de menor que, barra, maior que pintado de roxo"
           className="icon-image"
         />
         <div className="title-container">
