@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-personal-portfolio/static/css/main.1454eb2d.css",
+    "main.js": "/my-personal-portfolio/static/js/main.5b1edb88.js",
+    "static/media/portfolio-presents.png": "/my-personal-portfolio/static/media/portfolio-presents.68bee96afd779bc6d80f.png",
+    "static/media/roge-image.jpeg": "/my-personal-portfolio/static/media/roge-image.c10ad6578ab5e1355c5c.jpeg",
+    "static/media/react.png": "/my-personal-portfolio/static/media/react.809fed23bcdd686de66e.png",
+    "static/media/mysql.png": "/my-personal-portfolio/static/media/mysql.bdbd1eb709e4c13258d2.png",
+    "static/media/nodejs.png": "/my-personal-portfolio/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/html-5.png": "/my-personal-portfolio/static/media/html-5.a92a549a591f4acb527a.png",
+    "static/media/css.png": "/my-personal-portfolio/static/media/css.02d225c7df0b28341d8d.png",
+    "static/media/telegram.png": "/my-personal-portfolio/static/media/telegram.65db574b9f74a1d788ea.png",
+    "static/media/js.png": "/my-personal-portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/my-personal-portfolio/index.html",
+    "main.1454eb2d.css.map": "/my-personal-portfolio/static/css/main.1454eb2d.css.map",
+    "main.5b1edb88.js.map": "/my-personal-portfolio/static/js/main.5b1edb88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1454eb2d.css",
+    "static/js/main.5b1edb88.js"
+  ]
+}
