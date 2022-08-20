@@ -7,7 +7,7 @@ import './Skills.css';
 // import languageText from '../../components/SkillsLanguages/commons/about-skills-text';
 
 export default function Skills() {
-  const [languageName, setLanguageName] = useState('Cliquei em nas linguagens para saber mais');
+  const [languageName, setLanguageName] = useState('Passe o mouse sobre os ícones para saber mais');
   // Para conseguir passar informações usando props do componente filho para o pai, usei
   // esta referência:
   // https://www.freecodecamp.org/portuguese/news/como-passar-dados-e-eventos-entre-componentes-em-react/
