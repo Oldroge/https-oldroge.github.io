@@ -23,11 +23,17 @@ export default function ProjectsContent() {
             <img src={GitHubIcon} alt="" className="github-icon" />
           </a>
         </div>
-        <img
-          src={PortfolioImage}
-          alt="Imagem escrito Portfolio com fundo preto e detalhes de roxo"
-          className="portfolio-image"
-        />
+        <a
+          href="https://main--peaceful-jelly-fae778.netlify.app/about"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={PortfolioImage}
+            alt="Imagem escrito Portfolio com fundo preto e detalhes de roxo"
+            className="portfolio-image"
+          />
+        </a>
       </div>
       <div className="arrow-right-side-div">
         <img
