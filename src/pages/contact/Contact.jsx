@@ -7,6 +7,7 @@ import './Contact.css';
 import GitHubIcon from './images/github.png';
 import LinkedinIcon from './images/linkedin.png';
 import TelegramIcon from './images/telegram.png';
+import GmailIcon from './images/gmail.png';
 
 export default function Contact() {
   return (
@@ -37,6 +38,15 @@ export default function Contact() {
             <a href="https://t.me/oldroge" target="_blank" rel="noopener noreferrer">
               <img
                 src={TelegramIcon}
+                alt="fundo azul circular com um avião de papel ao centro"
+                className="images-icon"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="mailto:rogedeveloper@gmail.com" target="_blank" rel="noopener noreferrer">
+              <img
+                src={GmailIcon}
                 alt="fundo azul circular com um avião de papel ao centro"
                 className="images-icon"
               />

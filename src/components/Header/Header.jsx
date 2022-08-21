@@ -13,9 +13,6 @@ function Header() {
           alt="sinal de menor que, barra, maior que pintado de roxo"
           className="icon-image"
         />
-        <div className="title-container">
-          <h1 className="header-title">ROGE</h1>
-        </div>
         <MenuBar />
       </div>
     </header>
