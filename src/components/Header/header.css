@@ -17,14 +17,6 @@
         justify-content: space-between;
     }
     
-    .header-title {
-        width: 100px;
-        font-family: Arial, Helvetica, sans-serif;
-        -webkit-text-stroke: 1px #5E17EB;
-        color: white;
-        font-size: 30px;
-    }
-    
     .routes-container {
         display: flex;
         justify-content: space-around;
@@ -86,14 +78,6 @@
 
     .title-container {
         align-self: center;
-    }
-
-    .header-title {
-        width: 100px;
-        font-family: Arial, Helvetica, sans-serif;
-        -webkit-text-stroke: 1px #5E17EB;
-        color: white;
-        font-size: 30px;
     }
 
     .routes-container {
